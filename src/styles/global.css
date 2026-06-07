@@ -151,7 +151,7 @@ body {
 
 .product-card img {
   width: 100%;
-  height: 220px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -811,6 +811,149 @@ hr {
 
   cursor: pointer;
 }
+.contact-hero {
+  background: #2f5d31;
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.contact-hero p {
+  font-size: 1.2rem;
+}
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+
+  padding: 60px 20px;
+}
+
+.contact-card {
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact-icon {
+  font-size: 40px;
+  color: #2f5d31;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  color: #2f5d31;
+  margin-bottom: 10px;
+}
+.contact-main {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+
+  padding: 40px 20px 80px;
+}
+
+.contact-form-box,
+.map-box,
+.business-hours {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact-form-box h2,
+.business-hours h3 {
+  color: #2f5d31;
+  margin-bottom: 20px;
+}
+
+.contact-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.contact-form-box button {
+  background: #2f5d31;
+  color: white;
+
+  border: none;
+  padding: 14px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.business-hours {
+  margin-top: 25px;
+}
+
+.hour-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.contact-cta {
+  background: linear-gradient(
+      rgba(47, 93, 49, 0.8),
+      rgba(47, 93, 49, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200");
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 100px 20px;
+
+  text-align: center;
+
+  color: white;
+}
+
+.contact-cta h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.contact-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background: white;
+  color: #2f5d31;
+
+  text-decoration: none;
+
+  padding: 14px 35px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+  display: inline-block;
+}
+
+
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.4rem;

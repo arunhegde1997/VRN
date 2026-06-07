@@ -1,4 +1,11 @@
 import ProductCard from "./ProductCard";
+import Black_pepper from "../../assets/images/Black_pepper.png";
+import Turmeric_Powder from "../../assets/images/Turmeric_powder.png";
+import Cardamom from "../../assets/images/Cardamom.png";
+import Wild_Honey from "../../assets/images/Wild_honey.png";
+import Areca_Nut from "../../assets/images/Arecanut.png";
+import Bird_eye_chilli from "../../assets/images/Bird_eye_chillli.png";
+import Clove from "../../assets/images/Clove.png";
 
 const products = [
   {
@@ -8,7 +15,7 @@ const products = [
     weight: "100g",
     description: "Premium quality black pepper.",
     image:
-      "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500"
+      Black_pepper
   },
 
   {
@@ -18,7 +25,7 @@ const products = [
     weight: "100g",
     description: "Pure natural turmeric powder.",
     image:
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=500"
+      Turmeric_Powder
   },
 
   {
@@ -28,8 +35,46 @@ const products = [
     weight: "25g",
     description: "Fresh green cardamom.",
     image:
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500"
-  }
+      Cardamom
+  },
+  {
+     id: 4,
+    name: "Wild Honey",
+    weight: "1kg",
+    price: "₹500",
+    description: "Pure Natural wild Honey.",
+    image: Wild_Honey,
+  },
+  {
+    id: 5,
+    name: "Areca Nut",
+    weight: "1kg",
+    price: "₹500",
+    description: "Premium quality areca nut.",
+    image: Areca_Nut,
+    
+    
+  },
+  {
+    id: 6,
+    name: "Bird eye chilli ",
+    weight: "1kg",
+    price: "₹500",
+    description: "Premium quality bird eye chilli.",
+    image: Bird_eye_chilli,
+    
+    
+  },
+  {
+    id: 7,
+    name: "Clove",
+    weight: "50g",
+    price: "₹150",
+    description: "Premium quality clove.",
+    image: Clove,
+    
+    
+  },
 ];
 
 function ProductGrid() {
